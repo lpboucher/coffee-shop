@@ -4,6 +4,7 @@ import React from 'react'
 import get from 'lodash/get'
 import { Image, Header } from 'semantic-ui-react'
 import Helmet from 'react-helmet'
+import HowItWorks from '../components/HowItWorks'
 import ProductList from '../components/ProductList'
 import logo from '../images/ill-short-dark.svg'
 
@@ -22,6 +23,7 @@ class StoreIndex extends React.Component {
             <Image src={logo} alt={'logo'}/>
           </Header.Content>
         </Header>
+        <HowItWorks></HowItWorks>
         <ProductList products={filterProductsWithoutImages} />
       </div>
     )
