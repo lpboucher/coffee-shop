@@ -18,9 +18,9 @@ class StoreIndex extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
-        <Header as="h3" icon textAlign="center" style={{ marginBottom: '2em' }}>
-          <Header.Content style={{ width: '60%', margin: '0 auto' }}>
-            <Image src={logo} alt={'logo'}/>
+        <Header as="h3" icon textAlign="center" style={{ marginBottom: '0' }}>
+          <Header.Content style={{ height: '100vh', margin: '0 auto' }}>
+            <Image src='https://images.pexels.com/photos/296888/pexels-photo-296888.jpeg?cs=srgb&dl=attractive-bar-barista-296888.jpg&fm=jpg' alt={'logo'} style={{height: '100%', objectFit: 'cover'}}/>
           </Header.Content>
         </Header>
         <HowItWorks></HowItWorks>
