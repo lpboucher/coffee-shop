@@ -1,14 +1,14 @@
 import React from 'react'
 import { Image } from 'semantic-ui-react'
 
-import moltin from '../../images/moltin-light-hex.svg.svg'
+import mustache from '../../images/mr-mustache-white.svg'
 
 const Logo = () => (
   <Image
     size="mini"
-    src={moltin}
+    src={mustache}
     style={{ marginRight: '1.5em' }}
-    alt="I love Lamp"
+    alt="Mustache Logo"
   />
 )
 

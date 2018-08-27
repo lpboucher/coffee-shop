@@ -24,7 +24,7 @@ class DesktopMenu extends Component {
     const { activeItem } = this.state
     const { token, cartCount } = this.props
     return (
-      <Menu size="huge" borderless pointing>
+      <Menu size="huge" borderless inverted>
         <Container text>
           <Menu.Item
             active={activeItem === withPrefix('/')}
@@ -33,7 +33,7 @@ class DesktopMenu extends Component {
             header
           >
             <Logo />
-            Starter Store
+            Mr. Mustache
           </Menu.Item>
           {token ? (
             <Menu.Menu position="right">

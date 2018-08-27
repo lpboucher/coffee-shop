@@ -49,7 +49,7 @@ class Layout extends React.PureComponent {
           <Headroom
             upTolerance={10}
             downTolerance={10}
-            style={{ zIndex: '20', height: '4.9em' }}
+            style={{ zIndex: '20', height: '4.5em' }}
           >
             <Header location={location} />
           </Headroom>
