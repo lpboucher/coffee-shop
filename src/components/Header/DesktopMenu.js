@@ -33,7 +33,7 @@ class DesktopMenu extends Component {
             header
           >
             <Logo />
-            Mr. Mustache
+            Stache Coffee
           </Menu.Item>
           {token ? (
             <Menu.Menu position="right">
