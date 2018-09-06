@@ -6,9 +6,11 @@ const Footer = () => (
   <Segment
     vertical
     style={{
-      padding: '4em 0em',
+      padding: '2em 0em',
       marginTop: '3em',
       borderTop: '1px solid #f2f2f2',
+      backgroundColor: 'black',
+      color: 'lightgrey',
     }}
   >
     <Container text>
@@ -30,9 +32,6 @@ const Footer = () => (
             <List>
               <List.Item as={Link} to="/">
                 Our Products
-              </List.Item>
-              <List.Item as={Link} to="/gatsbyimage/">
-                Gatsby Image Example
               </List.Item>
             </List>
           </Grid.Column>
